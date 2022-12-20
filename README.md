@@ -36,3 +36,5 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch open_rviz:=false
 # Output:
 
 Out output OccumapancyGrid map will look something like this: 
+
+![Screenshot_20221220_184227](https://user-images.githubusercontent.com/117113574/208751479-804197b4-9e2b-467b-9ffd-76c66b4208f4.png)
