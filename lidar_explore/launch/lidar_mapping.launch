@@ -1,0 +1,4 @@
+<launch>
+<node pkg="tf" type="static_transform_publisher" name= "static_between_map_laser" args="0 0 0 0 0 0 1 map map_laser 10"/>
+<node pkg="lidar_explore" type="Mapping_from_laser.py" name="lidar_exp" output="screen"/>
+</launch>   
